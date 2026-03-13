@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Send New Circular</title>
+
+<link rel="stylesheet" href="send-circular.css">
+
+</head>
+
+<body>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+
+<aside class="sidebar">
+
+<div class="logo">
+Taameem
+</div>
+
+<nav>
+
+<a href="dashboard.html">Dashboard</a>
+<a class="active">Send Circular</a>
+<a>All Circulars</a>
+<a>Universities</a>
+<a>Reports & Analytics</a>
+<a>Notifications</a>
+<a>Settings</a>
+
+</nav>
+
+<div class="logout">
+Logout
+</div>
+
+</aside>
+
+
+
+<!-- MAIN -->
+
+<main class="main">
+
+<header class="topbar">
+
+<h2>Send New Circular</h2>
+
+<div class="user">
+Dr. Ahmed Masoud
+</div>
+
+</header>
+
+
+
+<div class="card">
+
+<h3>Circular Details</h3>
+
+<section class="form-section">
+
+<label>Circular Title</label>
+
+<input type="text" placeholder="eg. Mandatory Guidelines for Academic Accreditation 2024">
+
+<label>Detailed Description</label>
+
+<textarea placeholder="Provide the comprehensive text for the circular directive here..."></textarea>
+
+</section>
+
+
+
+<div class="grid">
+
+<!-- TARGET UNIVERSITIES -->
+
+<div class="card small">
+
+<h4>Target Universities</h4>
+
+<label><input type="checkbox"> King Saud University</label>
+<label><input type="checkbox"> Princess Nourah University</label>
+<label><input type="checkbox"> King Abdulaziz University</label>
+<label><input type="checkbox"> Imam Mohammad University</label>
+<label><input type="checkbox"> Qassim University</label>
+
+</div>
+
+
+
+<!-- DEADLINE -->
+
+<div class="card small">
+
+<h4>Deadline & Priority</h4>
+
+<label>Submission Deadline</label>
+
+<input type="date">
+
+<label>Priority Level</label>
+
+<div class="priority">
+
+<button class="normal">Normal</button>
+<button class="urgent">Urgent</button>
+<button class="critical">Critical</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- FILE UPLOAD -->
+
+<section class="upload">
+
+<h4>Supporting Documents</h4>
+
+<div class="upload-box" id="uploadBox">
+
+<input type="file" id="fileInput">
+
+<p>Click to upload or drag and drop</p>
+
+</div>
+
+<ul id="fileList"></ul>
+
+</section>
+
+
+
+<div class="buttons">
+
+<button class="draft">Save as Draft</button>
+
+<button class="send">Send Circular</button>
+
+</div>
+
+</div>
+
+</main>
+
+</div>
+
+<script src="send-circular.js"></script>
+
+</body>
+
+</html>
