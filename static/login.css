@@ -126,7 +126,11 @@ background:#F1F2F5;
 
 border-radius:8px;
 margin-bottom:20px;
-
+border-right:10px;
+}
+.icon{
+    width:15px;
+    
 }
 
 .account-switch button{
